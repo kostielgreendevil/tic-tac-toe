@@ -80,11 +80,10 @@ class TicTacToe {
 
     getFieldValue(rowIndex, colIndex) {
         if (!this.grid[rowIndex][colIndex]) {
-            return null
+            return null;
         }  else {
             return this.grid[rowIndex][colIndex];
         }
-         
     }
 }
 
